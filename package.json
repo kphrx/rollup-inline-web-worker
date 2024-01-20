@@ -1,5 +1,5 @@
 {
-  "name": "@kphrx/rollup-typescript-plugin-template",
+  "name": "@kphrx/rollup-plugin-inline-web-worker",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kphrx/rollup-typescript-plugin-template.git"
+    "url": "git+https://github.com/kphrx/rollup-plugin-inline-web-worker.git"
   },
   "author": "kPherox <kphrx@kpherox.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kphrx/rollup-typescript-plugin-template/issues"
+    "url": "https://github.com/kphrx/rollup-plugin-inline-web-worker/issues"
   },
-  "homepage": "https://github.com/kphrx/rollup-typescript-plugin-template#readme",
+  "homepage": "https://github.com/kphrx/rollup-plugin-inline-web-worker#readme",
   "devDependencies": {
     "typescript": "^5.3.3"
   },
