@@ -23,7 +23,7 @@ export default (options: Partial<Options> = {}): Plugin => {
           name: attributes.name,
         };
         return {
-          code: `const blob = new Blob([${JSON.stringify(code)}],{type:"application/javascript"});export default new Worker(blob,${JSON.stringify(workerOpt)});`
+          code: `const blob = new Blob([${JSON.stringify(code)}],{type:"application/javascript"});export default new Worker(URL.createObjectURL(blob),${JSON.stringify(workerOpt)});`
         };
       }
 
